@@ -13,8 +13,6 @@ class BookController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('book/index.html.twig', [
-            'controller_name' => 'Page liste des livres',
-        ]);
+        return $this->render('book/index.html.twig');
     }
 }

@@ -16,10 +16,10 @@
     <body>
         <header>
             <nav>
-                <a href="{{ url('homepage') }}">Accueil</a> -
-                <a href="{{ url('book') }}">Book</a> -
-                <a href="{{ url('contact') }}">Contact</a> -
-                <a href="{{ url('faq') }}">FAQ</a>
+                <a href="{{ path('homepage') }}">Accueil</a> -
+                <a href="{{ path('book') }}">Book</a> -
+                <a href="{{ path('contact') }}">Contact</a> -
+                <a href="{{ path('faq') }}">FAQ</a>
             </nav>
         </header>
         {% block body %}{% endblock %}
